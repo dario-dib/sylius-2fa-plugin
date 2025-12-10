@@ -1,5 +1,5 @@
 {
-    "name": "vivanwebsolution/sylius-2fa-plugin",
+    "name": "dario-dib/sylius-2fa-plugin",
     "description": "VivanWebSolution Sylius 2FA Plugin",
     "type": "sylius-plugin",
     "homepage": "https://github.com/vivanwebsolution/sylius-2fa-plugin",
@@ -10,13 +10,14 @@
     "license": "proprietary",
     "require": {
         "php": "^8.2",
-        "endroid/qr-code": "^6.0",
-        "scheb/2fa-bundle": "^7.10",
-        "scheb/2fa-google-authenticator": "^7.10",
-        "spomky-labs/otphp": "^11.3",
-        "sylius/sylius": "~2.0.0"
+        "sylius/sylius": "^2.0 || ^2.1",
+        "symfony/framework-bundle": "^6.4 || ^7.0",
+        "symfony/security-bundle": "^6.4 || ^7.0",
+        "scheb/2fa-bundle": "^7.0",
+        "scheb/2fa-google-authenticator": "^7.0",
+        "endroid/qr-code": "^4.8"
     },
-    "readme": "README.md",  
+    "readme": "README.md",
     "require-dev": {
         "behat/behat": "^3.16",
         "dmore/behat-chrome-extension": "^1.4",
